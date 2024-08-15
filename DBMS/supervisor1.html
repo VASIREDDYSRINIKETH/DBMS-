@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supervisor</title>
+    <link rel="stylesheet" href="supervisor.css">
+    <script src="https://kit.fontawesome.com/5200cd7749.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="heading">
+        <i class="fa-solid fa-house-chimney" id="top_home" onclick="window.location.href='webpage.html'"></i>
+        <h1>Vaccination Supervisor Page</h1>
+    </div>
+    <div id="container">
+        <div id="aadhaar">
+            <button onclick="window.location.href='supervisor_aadhaar.php'" type="submit" id="aadhaar_search">Search by Aadhaar Number <br> <i class="fa-solid fa-id-card" id="icon"></i></button>
+        </div>
+    
+        <div id="date_slot">
+            <button onclick="window.location.href='supervisor_date_time.php'" type="submit" id="date_slot_search">Search by Date and Time Slot <br> <i class="fa-regular fa-calendar-days" id="icon"></i></button>
+        </div>
+
+        <div id="dead_line">
+            <button onclick="window.location.href='supervisor_deadline.php'" type="submit" id="dead_line_search">Search by Expired Due Date
+                <br> <i class="fa-regular fa-calendar-xmark" id="icon"></i>
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <button onclick="window.location.href='supervisor.html'" type="submit" id="back">Back</button>
+    </div>
+
+</body>
+</html>

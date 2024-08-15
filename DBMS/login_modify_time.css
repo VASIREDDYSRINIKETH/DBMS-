@@ -1,0 +1,78 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-align: center;
+    background-image: url(cover.jpeg);
+    background-position: calc(50%) calc(50% + 200px);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#heading
+{
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: rgb(19, 43, 83);
+    background-color: rgb(19, 43, 83);
+    display: flex;
+}
+
+h2
+{
+    margin-left: 35.5%;
+    color: rgb(255, 255, 255);
+}
+
+#slot1_date
+{
+    font-size: 20px;
+}
+
+#slot2_date
+{
+    font-size: 20px;
+}
+
+#top_home
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 1.25%;
+    transition: color 0.25s;
+}
+
+#top_home:hover
+{
+    color: cyan;
+}
+
+#submit
+{
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#submit
+{
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    color: rgb(0, 30, 70);
+    background-color: rgb(255, 242, 59);
+    transition: background 0.2s, color 0.2s;
+}
+
+#submit:hover
+{
+    background-color: goldenrod;
+    color: white
+}
+
+#form
+{
+    margin-top: 2%;
+    font-size: 20px;
+}

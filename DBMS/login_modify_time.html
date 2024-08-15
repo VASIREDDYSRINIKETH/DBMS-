@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Time Modification Page</title>
+        <link rel="stylesheet" href="login_modify_time.css">
+        <script src="https://kit.fontawesome.com/5200cd7749.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="heading">
+            <i class="fa-solid fa-house-chimney" id="top_home" onclick="window.location.href='user_home.html'"></i>
+            <h2>Modify Your Session Time</h2>
+        </div>
+        <form action="login_modify.php" method="post" id="form">
+        <label for="slot1_date">Session 1 Date:</label>
+        <input type="date" id="slot1_date" name="slot1_date" ><br><br>
+        
+        <label for="slot_select" id="slot_select">Slot: </label>
+        <input type="radio" name="slot1_time" value="8AM-12PM">
+            8AM to 12PM &nbsp;&nbsp;
+    </input>
+    <input type="radio" name="slot1_time" value="2PM-6PM">
+            2PM to 6PM
+    </input>
+    <br>
+    <br>
+    <label for="slot2_date">Session 2 Date:</label>
+        <input type="date" id="slot2_date" name="slot2_date" ><br><br>
+        
+        <label for="slot2_select" id="slot2_select">Slot: </label>
+        <input type="radio" name="slot2_time" value="8AM-12PM">
+            8AM to 12PM &nbsp;&nbsp;
+    </input>
+    <input type="radio" name="slot2_time" value="2PM-6PM">
+            2PM to 6PM
+    </input>
+    <br><br>
+        
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <br>
+    <button onclick="window.location.href='user_home.php'" type="submit" id="home" style="padding: 0.5rem; background-color: yellow; border-radius:0.5rem;">Back to home <i class="fa-solid fa-house-chimney"></i></button>
+
+    </body>
+</html>

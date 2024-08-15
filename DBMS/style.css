@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('VaccinationPM.jpg'); 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black ;
+    padding-right: 2.5rem;
+}
+.fp{
+    font-size: 20px;
+    float: left;
+    text-decoration: none;
+    color: black;
+
+}
+.login-box {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.register {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register p {
+    margin-bottom: 10px;
+}
+
+.register ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.register ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.register ul li:hover {
+    text-decoration: underline;
+}
+.back{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    text-decoration: none;
+    color: #ccc;
+    float:left;
+}

@@ -1,0 +1,200 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(user_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* CSS for the profile widget */
+#profile-widget {
+  display: none;
+  position: fixed;
+  top: 50%;
+  color: #fff;
+  left: 0; /* Set to left of the screen */
+  transform: translate(0, -50%);
+  background-color: black; /* Set background color to black */
+  padding: 20px;
+  border: 3px solid goldenrod; /* Set golden border */
+  outline: #000 2px solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow-y: auto; /* Enable vertical scrollbar */
+  max-height: 300px; /* Set a fixed height */
+}
+
+/* CSS for the scrollbar */
+.profile-widget::-webkit-scrollbar {
+  width: 5px; /* Set width of the scrollbar */
+}
+
+.profile-widget::-webkit-scrollbar-thumb {
+  background-color:black; /* Set color of the scrollbar thumb */
+  border-radius: 10px; /* Round the edges of the thumb */
+}
+
+.profile-widget::-webkit-scrollbar-track {
+  background-color: transparent; /* Set color of the scrollbar track */
+}
+
+/* CSS for the close button */
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+  
+header
+{
+    background-color: #007bff;
+    color: #fff;
+    padding: 12.5px;
+    text-align: center;
+    display: flex;
+}
+
+#lions
+{
+    margin-top: 0.55%;
+}
+
+h1
+{
+    margin-left: 26%;
+}
+
+h2
+{
+    background-color: #00229b;
+    color: #fff;
+    padding: 12.5px;
+}
+
+#profile
+{
+  border-radius: 50%;
+}
+
+button
+{
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 1%;
+    background-color: #00229b;
+    border: 2px solid #00229b;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+  
+button::before
+{
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+  
+button:hover::before
+{
+    width: 300%;
+    height: 300%;
+    top: -50%;
+    left: -50%;
+}
+  
+button span
+{
+    position: relative;
+    z-index: 1;
+}
+  
+button:hover
+{
+    color: #00229b;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.steps {
+  list-style-type: none;
+  padding: 0;
+}
+
+.step {
+  margin-top: 1%;
+  margin-bottom: 10px;
+  padding-left: 2%;
+}
+
+.step-number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.step-description {
+  display: none;
+  padding-left: 10px;
+  color: #007bff;
+  font-weight: bold;
+  animation: fadeInSlideIn 0.5s ease-in-out;
+}
+
+@keyframes fadeInSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.steps:hover .step-description {
+  display: inline-block;
+}
+  
+  
+footer
+{
+    margin-top: 3%;
+    background-image: url(deco.jpeg);
+    padding: 10px;
+    padding-left: 35.5%;
+}
+  
+p
+{
+  padding-left: 2%;
+  margin-bottom: 2.5%;
+}

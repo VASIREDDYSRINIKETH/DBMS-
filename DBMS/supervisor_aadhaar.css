@@ -1,0 +1,138 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    animation-name: myColour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#save_changes {
+    font-size: 17.5px;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    transition: background 0.25s, color 0.25s; 
+    background-color: yellow;
+    color: rgb(0, 52, 121); 
+    border: 2px solid ; 
+    cursor: pointer; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+#save_changes:hover {
+    background-color: darkgoldenrod; 
+    color: white; 
+}
+
+#heading
+{
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: rgb(19, 43, 83);
+    background-color: rgb(19, 43, 83);
+    display: flex;
+}
+
+h1
+{
+    margin-left: 24%;
+    color: rgb(255, 255, 255);
+}
+
+#top_home
+{
+    font-size: 40px;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    transition: color 0.25s;
+}
+
+#top_home:hover
+{
+    color: cyan;
+}
+
+#icon
+{
+    position: relative;
+}
+
+#aadhaar_cont
+{
+    font-size: 20px;
+    margin-top: 1.5%;
+}
+
+#home
+{
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 1%;
+    color: rgb(0, 52, 121);
+    background-color: rgb(255, 242, 59);
+    transition: background 0.2s, color 0.2s;
+}
+
+#home:hover
+{
+    background-color: goldenrod;
+    color: white
+}
+
+#search
+{
+    font-size: 17.5px;
+    border-radius: 5px;
+    padding-top: 2.5px;
+    transition: background 0.25s;
+}
+
+#search:hover
+{
+    background-color: rgb(144, 227, 255);
+}
+
+#aadhaar
+{
+    font-size: 18px;
+}
+
+@keyframes myColour
+{
+    0%
+    {
+        background-color: rgb(215, 255, 202);
+    }
+    16%
+    {
+        background-color: rgb(254, 238, 194);
+    }
+    48%
+    {
+        background-color: rgb(198, 255, 245);
+    }
+    84%
+    {
+        background-color: rgb(215, 255, 202);
+    }
+    100%
+    {
+        background-color: rgb(215, 255, 202);
+    }
+}

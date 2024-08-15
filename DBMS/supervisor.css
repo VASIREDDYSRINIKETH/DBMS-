@@ -1,0 +1,100 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url(give-me-an-image-of-animated-people-reaching-for-a-gigantic-vaccine-the-theme-is-covid-19-vaccinat.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#heading
+{
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: rgb(19, 43, 83);
+    background-color: rgb(19, 43, 83);
+    display: flex;
+}
+
+h1
+{
+    margin-left: 28%;
+    color: rgb(255, 255, 255);
+}
+
+#top_home
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 1.9%;
+    margin-left: 1.25%;
+    transition: color 0.25s;
+}
+
+#top_home:hover
+{
+    color: cyan;
+}
+
+#container
+{
+    margin-top: 7.5%;
+    display: flex;
+    margin-left: 11.1%;
+    margin-right: 15%;
+}
+
+button
+{
+    font-size: 20px;
+    color: rgb(0, 52, 121);
+    border-radius: 1.5em;
+    width: 15em;
+    height: 10em;
+    padding: 5px;
+    margin-right: 7.5rem;
+    background-color: rgb(255, 242, 59);
+    transition: background 0.2s, color 0.2s;
+}
+
+#icon
+{
+    padding-top: 15px;
+    font-size: 100px;
+}
+
+button:hover
+{
+    background-color: goldenrod;
+    color: white
+}
+
+#back
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(19, 43, 83);
+    border-radius: 5px;
+    padding: 7.5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: fit-content;
+    height: auto;
+}
+
+#back:hover
+{
+    background-color: rgb(0, 75, 173);
+    color: white;
+}

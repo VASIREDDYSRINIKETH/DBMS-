@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.lod{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+}
+h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.CS,.CV,.SV{
+    color: #fff;
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.SV{
+    margin-right: 2rem;
+}
+h1 {
+    margin: 0; 
+}
+h2{
+    color: whitesmoke;
+    margin-left: 2rem;
+}
+.content {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+details summary
+{
+
+  list-style:none ;
+  list-style-image:url("menu2.png") ;
+  list-style-position: inside;
+  align-items: center;
+
+}
+
+details[open]  summary{
+  list-style:none ;
+  list-style-image:url("menu12.png") ;
+list-style-position: inside;
+    align-items: center;
+    padding-right: 5rem;
+
+} 
+.lod{
+    float: right;
+    padding-top:1px ;
+    
+}
+
+.reg, h3 details {
+    color: #fff;
+    background-color: #333;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+.bg {
+    background-image: url('cdc-uN8TV9Pw2ik-unsplash.jpg'); 
+    background-size: cover;
+    padding: 20px;
+}
+.bg {
+    padding-top: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+}
+
+nav  a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav  a:first-child {
+    margin-left: 0;
+}
+.vac {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}

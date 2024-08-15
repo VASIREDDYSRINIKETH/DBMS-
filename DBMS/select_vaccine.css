@@ -1,0 +1,135 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-align: center;
+    background-image: url(cover.jpeg);
+    background-position: calc(50%) calc(50% + 220px);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#heading
+{
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-bottom: rgb(19, 43, 83);
+    background-color: rgb(19, 43, 83);
+    display: flex;
+}
+
+h2
+{
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+}
+
+#top_home
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 1.25%;
+    transition: color 0.25s;
+}
+
+#top_home:hover
+{
+    color: cyan;
+}
+
+#submit
+{
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#submit
+{
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    color: rgb(0, 30, 70);
+    background-color: rgb(255, 242, 59);
+    transition: background 0.2s, color 0.2s;
+}
+
+#submit:hover
+{
+    background-color: goldenrod;
+    color: white
+}
+
+#form
+{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.image-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+#covaxin {
+    width: 350px; 
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+#covishield {
+    width: 350px;
+    height: 235px;
+    margin-right: 2rem;
+}
+
+#sputnik {
+    width: 350px;
+    height: 235px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+  
+.image-button p {
+    margin-top: 5px;
+}
+  
+#Covaxin
+{
+    padding-left: 2rem;
+    font-size: 17px;
+}
+
+#CoviShield
+{
+    padding-left: 2rem;
+    font-size: 17px;
+}
+
+#Sputnik-V
+{
+    padding-left: 2rem;
+    font-size: 17px;
+}
+
+#covaxin:hover {
+    filter: brightness(80%);
+}
+
+#covishield:hover {
+    filter: brightness(80%);
+}
+
+#sputnik:hover {
+    filter: brightness(80%);
+}

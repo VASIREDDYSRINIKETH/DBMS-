@@ -1,0 +1,202 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px;
+    border-style: groove;
+    border-color: rgb(255, 210, 126);
+    border-radius: 15px;
+    width: fit-content;
+    margin-left: 65%;
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url(WhatsApp\ Image\ 2024-04-05\ at\ 10.42.15\ AM.jpeg);
+    background-size: 45%;
+    background-position: 150px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(255, 245, 227);
+    margin-right: 3rem;
+}
+
+
+h1
+{
+    border-radius: 10px;
+    background-color: rgb(0, 79, 158);
+    color: white;
+    padding-bottom: 7.5px;
+    padding-top: 5px;
+}
+
+#Registration
+{
+    background-color: rgb(233, 250, 255);
+    border-radius: 15px;
+}
+
+#first_name
+{
+    background-image: url(user-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+    margin-top: 3%;
+}
+
+#last_name
+{
+    background-image: url(user-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#age
+{
+    background-image: url(hashtag-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#aadhaar_no
+{
+    background-image: url(id-card-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#city
+{
+    background-image: url(city-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#pin_code   
+{
+    background-image: url(city-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#contact_number
+{
+    background-image: url(user-regular.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#username
+{
+    background-image: url(user-regular.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#password
+{
+    background-image: url(lock-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+#confirm_password
+{
+    background-image: url(lock-solid.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 21px; /* Adjust based on the size of the icon */
+}
+
+::placeholder
+{
+    color: black;
+}
+
+input[type="text"]
+{
+    margin-bottom: 7.5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+
+input[type="number"]
+{
+    margin-bottom: 7.5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+
+input[type="password"]
+{
+    margin-bottom: 7.5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+
+input[type="radio"]
+{
+    margin-bottom: 7.5px;
+}
+
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+input[type="reset"]
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+a
+{
+    color: cornflowerblue;
+}
+
+a:visited
+{
+    color: cyan
+}
+
+a:hover
+{
+    color: aquamarine;
+}
+
+footer
+{
+    color: rgb(0, 34, 34);
+}

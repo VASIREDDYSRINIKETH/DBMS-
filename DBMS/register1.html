@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="register.css">
+  <script src="https://kit.fontawesome.com/5200cd7749.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1 id="heading_user_reg">User Registration</h1>
+  <div class="container">
+    <form id="Registration" action="register.php" method="post">
+      <div class="formgroup">
+        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="first name">
+      </div>
+      <div class="formgroup">
+        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="last name">
+      </div>
+      <div class="formgroup">
+        <label for="male" class="radio-inline" id="male_label"><input type="radio" name="gender" value="m" id="male">Male</label>
+        <label for="female" class="radio-inline" id="female_label"><input type="radio" name="gender" value="f" id="female">Female</label>
+        <label for="other" class="radio-inline" id="other_label"><input type="radio" name="gender" value="o" id="other">Other</label>
+      </div>
+      <div class="formgroup">
+        <input type="number" class="form-control" id="age" name="age" placeholder="Age">
+      </div>
+      <div class="formgroup">
+        <input type="text" class="form-control" id="aadhaar_no" maxlength="12" minlength="12" name="adhaar_no" placeholder="Aadhaar number">
+      </div>
+      <div class="formgroup">
+        <input type="text" class="form-control" id="city" name="city" placeholder="City">
+      </div>
+      <div class="formgroup">
+        <input type="text" class="form-control" id="pin_code" maxlength="6" minlength="6" name="pin_code" placeholder="Pincode">
+      </div>
+      <div class="formgroup">
+        <input type="text" class="form-control" id="contact_number" maxlength="10" minlength="10" name="contact_number" placeholder="Contact number">
+      </div>
+      <div class="formgroup">
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+      </div>
+      <div class="formgroup">
+        <input type="password" class="form-control" id="password" minlength="8" maxlength="20" name="password" placeholder="Password">
+      </div>
+      <div class="formgroup">
+        <input type="password" class="form-control" id="confirm_password" minlength="8" maxlength="20" name="password" placeholder="Confirm password">
+      </div>
+      <br>
+      <div style="color: red; font-family: Arial, Helvetica, sans-serif; font-size: 20px; "> *Fill all the fields to register</div>
+      <br>
+      <div class="formgroup">
+        <input type="submit" value="Submit" id="submit">
+        <input type="reset" value="Reset" id="submit">
+      </div>
+    </form>
+    <br>
+    <button onclick="window.location.href='webpage.html'" type="submit" id="home" style="padding: 0.5rem; background-color: yellow; border-radius:0.5rem;">Back to home <i class="fa-solid fa-house-chimney"></i></button>
+
+  </div>
+  <footer>
+    <p id="contact">Contact details:</p>
+    <p id="phone">For any queries, contact <a href="tel:+919090909090" id="ph_no">+91 9090909090</a></p>
+    <p id="mail">Email: <a href="mailto:vaccinationorg@gmail.com" id="email_id">vaccinationorg@gmail.com</a></p>
+  </footer>
+  <script src="register.js"></script>
+</body>
+</html>
